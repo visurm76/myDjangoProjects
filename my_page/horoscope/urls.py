@@ -3,6 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('leo/', views.leo),
-    path('scorpion/', views.scorpion),
+    path('<sign_zodiac>', views.get_info_about_sign_zodiac),
 ]
